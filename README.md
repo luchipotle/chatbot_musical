@@ -1,3 +1,3 @@
-Chatbot que recomienda canciones en función del estado de ánimo del usuario o la actividad que vaya a realizar. 
-Actualmente se reconocen 2 emociones (feliz y triste) y 3 actividades (entrenar, estudiar y bailar).
-Las canciones se recuperan a partir de una pequeña base de datos en CSV. 
+- Chatbot que recomienda canciones en función del estado de ánimo del usuario o la actividad que vaya a realizar.\n
+- Actualmente se reconocen 2 emociones (feliz y triste) y 3 actividades (entrenar, estudiar y bailar).\n
+- Las canciones se recuperan a partir de una pequeña base de datos en CSV.\n
