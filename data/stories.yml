@@ -1,0 +1,126 @@
+version: "3.1"
+stories:
+
+- story: Usuario quiere música feliz
+  steps:
+    - intent: saludar
+    - action: action_preguntar_nombre
+    - intent: decir_nombre
+      entities:
+        - nombre_usuario: Ana
+    - slot_was_set:
+        - nombre_usuario: Ana
+    - action: utter_saludo_personalizado
+    - intent: emocion_feliz
+      entities:
+        - emocion: feliz
+    - slot_was_set:
+        - emocion: feliz
+    - action: action_recomendar_musica
+
+- story: Usuario quiere música 
+  steps:
+    - intent: saludar
+    - action: action_preguntar_nombre
+    - intent: decir_nombre
+      entities:
+        - nombre_usuario: Juan
+    - slot_was_set:
+        - nombre_usuario: Juan
+    - action: utter_saludo_personalizado
+    - intent: emocion_feliz
+      entities:
+        - emocion: feliz
+    - slot_was_set:
+        - emocion: feliz
+    - action: action_recomendar_musica
+    - intent: actividad_entrenar
+      entities:
+        - actividad: entrenar
+    - slot_was_set:
+        - actividad: entrenar
+    - action: action_recomendar_musica
+
+- story: Usuario quiere música para estudiar
+  steps:
+    - intent: decir_nombre
+      entities:
+        - nombre_usuario: Carlos
+    - slot_was_set:
+        - nombre_usuario: Carlos
+    - action: utter_saludo_personalizado
+    - intent: actividad_estudiar
+      entities:
+        - actividad: estudiar
+    - slot_was_set:
+        - actividad: estudiar
+    - action: action_recomendar_musica
+
+- story: Usuario triste pide música
+  steps:
+    - intent: emocion_triste
+      entities:
+        - emocion: triste
+    - slot_was_set:
+        - emocion: triste
+    - action: action_recomendar_musica
+
+- story: Usuario quiere música 2
+  steps:
+    - intent: decir_nombre
+      entities:
+        - nombre_usuario: Lucía
+    - slot_was_set:
+        - nombre_usuario: Lucía
+    - action: utter_saludo_personalizado
+    - intent: actividad_bailar
+      entities:
+        - actividad: bailar
+    - slot_was_set:
+        - actividad: bailar
+    - action: action_recomendar_musica
+    - intent: emocion_feliz
+      entities:
+        - emocion: feliz
+    - slot_was_set:
+        - emocion: feliz
+    - action: action_recomendar_musica
+    - intent: actividad_entrenar
+      entities:
+        - actividad: entrenar
+    - slot_was_set:
+        - actividad: entrenar
+    - action: action_recomendar_musica
+
+- story: Usuario quiere música 3
+  steps:
+    - intent: decir_nombre
+      entities:
+        - nombre_usuario: Claudia
+    - slot_was_set:
+        - nombre_usuario: Claudia
+    - action: utter_saludo_personalizado
+    - intent: emocion_feliz
+      entities:
+        - emocion: feliz
+    - slot_was_set:
+        - emocion: feliz
+    - action: action_recomendar_musica
+    - intent: emocion_triste
+      entities:
+        - emocion: triste
+    - slot_was_set:
+        - emocion: triste
+    - action: action_recomendar_musica
+    - intent: actividad_entrenar
+      entities:
+        - actividad: entrenar
+    - slot_was_set:
+        - actividad: entrenar
+    - action: action_recomendar_musica
+    - intent: actividad_bailar
+      entities:
+        - actividad: bailar
+    - slot_was_set:
+        - actividad: bailar
+    - action: action_recomendar_musica

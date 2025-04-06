@@ -1,0 +1,59 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - decir_nombre
+  - despedirse
+  - negar_agradecer
+  - emocion_feliz
+  - emocion_triste
+  - actividad_estudiar
+  - actividad_entrenar
+  - actividad_bailar
+
+entities:
+  - nombre_usuario
+  - emocion
+  - actividad
+
+slots:
+  emocion:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: emocion
+
+  actividad:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: actividad
+
+  nombre_usuario:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: nombre_usuario
+
+
+responses:
+  utter_saludo_personalizado:
+  - text: "¡Genial, {nombre_usuario}! Dime cómo te sientes o la actividad que vas a realizar, y te diré qué canciones podrías escuchar 🎧"
+
+  utter_responder_agradecimiento:
+  - text: "Perfecto, ¡vuelve cuando quieras! 😃"
+
+  utter_despedida:
+    - text: "¡Hasta pronto, {nombre_usuario}! 🎵"
+
+
+actions:
+  - action_preguntar_nombre
+  - action_recomendar_musica
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

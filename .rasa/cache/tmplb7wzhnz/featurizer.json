@@ -1,0 +1,58 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "actividad_bailar": 0,
+        "actividad_entrenar": 1,
+        "actividad_estudiar": 2,
+        "agradecer": 3,
+        "back": 4,
+        "decir_nombre": 5,
+        "despedirse": 6,
+        "emocion_feliz": 7,
+        "emocion_triste": 8,
+        "nlu_fallback": 9,
+        "out_of_scope": 10,
+        "restart": 11,
+        "saludar": 12,
+        "session_start": 13
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_preguntar_nombre": 13,
+        "action_recomendar_musica": 14,
+        "utter_despedida": 15,
+        "utter_responder_agradecimiento": 16,
+        "utter_saludo_personalizado": 17
+      },
+      "entities": {
+        "actividad": 0,
+        "emocion": 1,
+        "nombre_usuario": 2
+      },
+      "slots": {
+        "emocion_0": 0,
+        "actividad_0": 1,
+        "nombre_usuario_0": 2
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

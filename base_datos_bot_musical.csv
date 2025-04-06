@@ -1,0 +1,136 @@
+tipo,categoria,canción,genero
+emocion,feliz,On Top of the World - Imagine Dragons,rock
+emocion,feliz,Good as Hell - Lizzo,soul
+emocion,feliz,Best Day of My Life - American Authors,pop
+emocion,feliz,Good Vibrations - Beach Boys,rock
+emocion,feliz,Can’t Stop the Feeling! - Justin Timberlake,pop
+emocion,feliz,I Gotta Feeling - Black Eyed Peas,pop
+emocion,feliz,Walking on Sunshine - Katrina & The Waves,rock
+emocion,feliz,Shut Up and Dance - Walk the Moon,rock
+emocion,feliz,Uptown Funk - Bruno Mars,funk
+emocion,feliz,Happy - Pharrell Williams,pop
+emocion,feliz,Walking on Sunshine - Katrina and the Waves,rock
+emocion,feliz,Good as Hell - Lizzo,pop
+emocion,feliz,Can't Stop the Feeling! - Justin Timberlake,pop
+emocion,feliz,Good Vibrations - The Beach Boys,rock
+emocion,feliz,Valerie - Mark Ronson ft. Amy Winehouse,soul
+emocion,feliz,I'm Yours - Jason Mraz,pop
+emocion,feliz,Firework - Katy Perry,pop
+emocion,feliz,Shake It Off - Taylor Swift,pop
+emocion,feliz,Dynamite - Taio Cruz,pop
+emocion,feliz,Good Time - Owl City & Carly Rae Jepsen,pop
+emocion,feliz,Cheerleader - OMI,pop
+emocion,feliz,You Make My Dreams - Hall & Oates,rock
+emocion,feliz,Freedom! '90 - George Michael,pop
+emocion,feliz,I'm a Believer - Smash Mouth,rock
+emocion,feliz,Sugar - Maroon 5,pop
+emocion,feliz,Electric Feel - MGMT,indie
+emocion,feliz,Feel It Still - Portugal. The Man,pop
+emocion,triste,I Will Always Love You - Whitney Houston,ballad
+emocion,triste,Tears in Heaven - Eric Clapton,rock
+emocion,triste,The Night We Met - Lord Huron,indie
+emocion,triste,Someone Like You - Adele,pop
+emocion,triste,Fix You - Coldplay,rock
+emocion,triste,Hurt - Johnny Cash,rock
+emocion,triste,Let Her Go - Passenger,folk
+emocion,triste,Creep - Radiohead,rock
+emocion,triste,Back to Black - Amy Winehouse,soul
+emocion,triste,Jealous - Labrinth,pop
+emocion,triste,The Night We Met - Lord Huron,pop
+emocion,triste,Happier - Ed Sheeran,pop
+emocion,triste,Everybody Hurts - R.E.M.,rock
+emocion,triste,All I Want - Kodaline,pop
+emocion,triste,Tears Dry on Their Own - Amy Winehouse,pop
+emocion,triste,Liability - Lorde,ipop
+emocion,triste,The A Team - Ed Sheeran,pop
+emocion,triste,Breathe Me - Sia,pop
+emocion,triste,I Will Always Love You - Whitney Houston,pop
+emocion,triste,When I Was Your Man - Bruno Mars,pop
+emocion,triste,Youth - Daughter,indie
+emocion,triste,Skinny Love - Bon Iver,folk
+emocion,triste,With or Without You - U2,rock
+emocion,triste,Fast Car - Tracy Chapman,rock
+contexto,estudiar,Weightless - Marconi Union,ambient
+contexto,estudiar,Clair de Lune - Claude Debussy,clásica
+contexto,estudiar,Experience - Ludovico Einaudi,clásica
+contexto,estudiar,Spiegel im Spiegel - Arvo Pärt,clásica
+contexto,estudiar,Time - Hans Zimmer,soundtrack
+contexto,estudiar,River Flows in You - Yiruma,clásica
+contexto,estudiar,Intro - The xx,instrumental
+contexto,estudiar,First Breath After Coma - Explosions in the Sky,rock
+contexto,estudiar,Saturn - Sleeping at Last,rock
+contexto,estudiar,La Dispute - Yann Tiersen,clásica
+contexto,estudiar,We Move Lightly - Dustin O’Halloran,clásica
+contexto,estudiar,Fly - Ludovico Einaudi,clásica
+contexto,estudiar,Cold Little Heart (Instrumental) - Michael Kiwanuka,soul
+contexto,estudiar,In My Heart - Moby,electrónica
+contexto,estudiar,Holocene - Bon Iver,folk
+contexto,estudiar,Midnight - Coldplay,pop
+contexto,estudiar,Adagio for Strings - Samuel Barber,clásica
+contexto,estudiar,Una Mattina - Ludovico Einaudi,clásica
+contexto,estudiar,Light - Sleeping At Last,ambient
+contexto,estudiar,A Model of the Universe - Jóhann Jóhannsson,soundtrack
+contexto,estudiar,Rainy Mood + Piano,ambient
+contexto,estudiar,Gymnopédie No.1 - Erik Satie,clásica
+contexto,estudiar,Moonlight Sonata - Beethoven,clásica
+contexto,estudiar,Study Session - Chillhop Essentials,lofi
+contexto,estudiar,Clair de Lune - Debussy,clásica
+contexto,estudiar,Lo-fi Chill Beats,lofi
+contexto,estudiar,Nocturne Op. 9 No. 2 - Chopin,clásica
+contexto,entrenar,X Gon’ Give It to Ya - DMX,hiphop
+contexto,entrenar,Stronger - Kanye West,hiphop
+contexto,entrenar,POWER - Kanye West,hiphop
+contexto,entrenar,Jump - Van Halen,rock
+contexto,entrenar,Enter Sandman - Metallica,rock
+contexto,entrenar,Remember the Name - Fort Minor,rock
+contexto,entrenar,Can't Hold Us - Macklemore,hiphop
+contexto,entrenar,Till I Collapse - Eminem,hiphop
+contexto,entrenar,Eye of the Tiger - Survivor,rock
+contexto,entrenar,Lose Yourself - Eminem,hiphop
+contexto,entrenar,Till I Collapse - Eminem ft. Nate Dogg,rap
+contexto,entrenar,Power - Kanye West,hiphop
+contexto,entrenar,Remember the Name - Fort Minor,rap
+contexto,entrenar,Can’t Hold Us - Macklemore & Ryan Lewis,hiphop
+contexto,entrenar,Don’t Let Me Down (Remix) - The Chainsmokers ft. Daya,electrónica
+contexto,entrenar,Turn Down for What - DJ Snake & Lil Jon,trap
+contexto,entrenar,Stronger - Britney Spears,pop
+contexto,entrenar,Born to Rage - Dada Life,electrónica
+contexto,entrenar,Animals - Martin Garrix,electrónica
+contexto,entrenar,Remember - Becky Hill & David Guetta,dance
+contexto,entrenar,Heads Will Roll (A-Trak Remix) - Yeah Yeah Yeahs,electrónica
+contexto,entrenar,Sicko Mode - Travis Scott,hiphop
+contexto,entrenar,Body - Loud Luxury ft. Brando,house
+contexto,entrenar,HUMBLE. - Kendrick Lamar,hiphop
+contexto,entrenar,No Limit - G-Eazy ft. A$AP Rocky,hiphop
+contexto,entrenar,Boom - Tiësto & Sevenn,electrónica
+contexto,entrenar,Fade - Kanye West,hiphop
+contexto,entrenar,My Songs Know What You Did in the Dark - Fall Out Boy,rock
+contexto,bailar,Shape of You - Ed Sheeran,pop
+contexto,bailar,Tusa - Karol G,regueton
+contexto,bailar,Despacito - Luis Fonsi,pop
+contexto,bailar,Uptown Funk - Mark Ronson ft. Bruno Mars,pop
+contexto,bailar,Can't Stop the Feeling! - Justin Timberlake,pop
+contexto,bailar,Uptown Funk - Mark Ronson ft. Bruno Mars,funk
+contexto,bailar,Levels - Avicii,electrónica
+contexto,bailar,Don't Start Now - Dua Lipa,pop
+contexto,bailar,Party Rock Anthem - LMFAO,electrónica
+contexto,bailar,Tusa - Karol G & Nicki Minaj,reguetón
+contexto,bailar,Danza Kuduro - Don Omar & Lucenzo,pop
+contexto,bailar,Levitating - Dua Lipa ft. DaBaby,pop
+contexto,bailar,On The Floor - Jennifer Lopez ft. Pitbull,pop
+contexto,bailar,We Found Love - Rihanna ft. Calvin Harris,pop
+contexto,bailar,Bailando - Enrique Iglesias,pop
+contexto,bailar,Don’t Start Now - Dua Lipa,pop
+contexto,bailar,Mi Gente - J Balvin,regueton
+contexto,bailar,Blinding Lights - The Weeknd,pop
+contexto,bailar,One More Time - Daft Punk,electrónica
+contexto,bailar,Safarí - J Balvin ft. Pharrell Williams,reguetón
+contexto,bailar,Call Me Maybe - Carly Rae Jepsen,pop
+contexto,bailar,Timber - Pitbull ft. Kesha,pop
+contexto,bailar,I Gotta Feeling - Black Eyed Peas,pop
+contexto,bailar,Despacito - Luis Fonsi ft. Daddy Yankee,pop
+contexto,bailar,Sexy and I Know It - LMFAO,electrónica
+contexto,bailar,Bailando - Enrique Iglesias ft. Gente de Zona,pop
+contexto,bailar,Cheap Thrills - Sia ft. Sean Paul,pop
+contexto,bailar,Levitating - Dua Lipa,pop
+contexto,bailar,DÁKITI - Bad Bunny,regueton

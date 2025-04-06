@@ -1,0 +1,1040 @@
+version: "3.1"
+nlu:
+- intent: saludar
+  examples: |
+    - Hola
+    - holi
+    - holaaaaa
+    - holiiiii
+    - Holiiii
+    - Hola!!!!!
+    - Holaaaa!
+    - ¡Holaaaa!
+    - Holaaa
+    - Buenas
+    - Buenos días
+    - Buenas noches
+    - ¿Qué hay?
+    - ¿Qué tal estás?
+    - Hola bot
+    - ¿Cómo puedes ayudarme?
+    - ¿Puedes ayudarme?
+    - Buenas tardes
+    - ¿Qué tal?
+    - qué tal
+    - qué hay
+    - buenas
+    - buenos dias
+
+
+- intent: decir_nombre
+  examples: |
+    - soy [Lucía](nombre_usuario)
+    - me llamo [Pedro](nombre_usuario)
+    - me llamo [Pepe](nombre_usuario)
+    - soy [Ana](nombre_usuario)
+    - [Carlos](nombre_usuario), mucho gusto
+    - soy [María](nombre_usuario)
+    - mi nombre es [Andrea](nombre_usuario)
+    - me llamo [Sofía](nombre_usuario)
+    - soy [Miriam](nombre_usuario)
+    - me llamo [Irene](nombre_usuario)
+    - me llamo [Álvaro](nombre_usuario)
+    - soy [Cristina](nombre_usuario)
+    - mi nombre es [Elena](nombre_usuario)
+    - mi nombre es [Andrés](nombre_usuario)
+    - Me llamo [Penélope](nombre_usuario)
+    - mi nombre es [Fran](nombre_usuario)
+    - Soy [alejandro](nombre_usuario)
+    - Soy [Claudia](nombre_usuario)
+    - mi nombre es [Adriana](nombre_usuario)
+    - Me llamo [Aitor](nombre_usuario), mucho gusto
+    - Mi nombre es [Paula](nombre_usuario)
+    - Mi nombre es [Raúl](nombre_usuario)
+    - Quiero presentarme, soy [Pablo](nombre_usuario)
+    - Oye, soy [Laura](nombre_usuario)
+    - [Juan](nombre_usuario), encantado
+    - Un gusto, soy [Miguel](nombre_usuario)
+    - me presento, [Jaime](nombre_usuario)
+    - mi nombre es [Lucas](nombre_usuario)
+    - soy [Sara](nombre_usuario)
+    - mi nombre es [Aitana](nombre_usuario)
+    - [Manuel](nombre_usuario)
+    - Me llamo [Irene](nombre_usuario)
+    - Soy [Alicia](nombre_usuario)
+    - mi nombre es [Felipe](nombre_usuario)
+    - mi nombre es [Roberto](nombre_usuario)
+    - me llamo [Carmen](nombre_usuario)
+    - soy [Mateo](nombre_usuario)
+    - soy [Laura](nombre_usuario)
+    - me llamo [Oscar](nombre_usuario)
+    - mi nombre es [Julia](nombre_usuario)
+    - mi nombre es [David](nombre_usuario)
+    - me llamo [Natalia](nombre_usuario)
+    - soy [Belén](nombre_usuario), encantada
+    - me llamo [Juan Pablo](nombre_usuario)
+    - soy [Daniela](nombre_usuario)
+    - mi nombre es [Carlos Alberto](nombre_usuario)
+    - me llamo [Marta](nombre_usuario)
+    - mucho gusto, soy [Jorge](nombre_usuario)
+    - me llamo [Alejandra](nombre_usuario)
+    - soy [Esteban](nombre_usuario)
+    - me llamo [Patricia](nombre_usuario), mucho gusto
+    - soy [Andrés](nombre_usuario), un placer conocerte
+    - mi nombre es [Rocío](nombre_usuario)
+    - me presento: soy [Nicolás](nombre_usuario)
+    - me llamo [Gema](nombre_usuario), encantada de hablar contigo
+    - soy [Ignacio](nombre_usuario), ¿podrías ayudarme?
+    - me llamo [Marisol](nombre_usuario)
+    - mi nombre es [Héctor](nombre_usuario), mucho gusto
+    - soy [Lucía](nombre_usuario), ¿tú cómo te llamas?
+    - mi nombre es [Antonio](nombre_usuario)
+    - Mi nombre es [Mar](nombre_usuario).
+    - Me llamo [Lucía](nombre_usuario)
+    - me llamo [lucia](nombre_usuario)
+
+
+- intent: emocion_feliz
+  examples: |
+    - quiero canciones [felices](emocion)
+    - necesito canciones [felices](emocion)
+    - busco canciones [felices](emocion)
+    - dime canciones [felices](emocion)
+    - recomienda canciones [felices](emocion)
+    - recomiendame canciones [felices](emocion)
+    - recomiéndame canciones [felices](emocion)
+    - di canciones [felices](emocion)
+    - canciones [felices](emocion)
+    - Quiero una canción [alegre](emocion)
+    - Dime música [alegre](emocion)
+    - Estoy [feliz](emocion), recomiéndame algo
+    - Me siento [alegre](emocion), ponme música
+    - Recomiendame música [feliz](emocion)
+    - Me encuentro [feliz](emocion), dime qué escuchar
+    - Me siento [feliz](emocion), recomienda algo
+    - Me siento muy [alegre](emocion), recomiendame algo
+    - Estoy muy [contenta](emocion), dime musica
+    - ¿Tienes alguna canción [feliz](emocion)?
+    - Sugiéreme un temazo [alegre](emocion)
+    - Estoy [euforico](emocion), ¿qué me pongo?
+    - Estoy muy [contenta](emocion), dime canciones
+    - Algo [animado](emocion), porfa
+    - Quiero sentirme [contenta](emocion), dime música
+    - Una canción que me [motive](emocion)
+    - Quiero una canción que me ponga [feliz](emocion)
+    - Quiero escuchar algo [alegre](emocion)
+    - Me siento [motivada](emocion), ponme algo
+    - Música para cuando estoy [feliz](emocion)
+    - Recomiéndame algo si estoy [feliz](emocion)
+    - Estoy [feliz](emocion), quiero algo que lo acompañe
+    - Necesito una canción [alegre](emocion) para animarme
+    - Necesito una canción [motivadora](emocion) para animarme
+    - Ponme algo [feliz](emocion), por favor
+    - ¿Qué canción [alegre](emocion) me recomiendas?
+    - Estoy de muy [buen humor](emocion), ¿qué puedo escuchar?
+    - Canciones para sentirme [feliz](emocion)
+    - Quiero escuchar algo que me haga sentir [alegre](emocion)
+    - ¿Qué música [feliz](emocion) tienes para mí?
+    - Dame una canción [alegre](emocion) para empezar el día
+    - Estoy [feliz](emocion), ¿qué me sugieres?
+    - Estoy [motivada](emocion), ¿qué me sugieres?
+    - Estoy [motivado](emocion), ¿qué me sugieres?
+    - Dime algo [motivador](emocion)
+    - Ponme canciones [motivadoras](emocion)
+    - Dime canciones para [motivarme](emocion)
+    - Recomienda canciones que me [motiven](emocion)
+    - Canciones para cuando estoy [contento](emocion)
+    - Me siento [feliz](emocion), ¿qué puedo escuchar?
+    - Recomiéndame algo [alegre](emocion) para bailar
+    - Quiero música [feliz](emocion) para celebrar
+    - Estoy [feliz](emocion), ponme algo bueno
+    - Canciones [alegres](emocion) para levantar el ánimo
+    - Necesito música [feliz](emocion) para trabajar
+    - Estoy [feliz](emocion), ¿qué canción me recomiendas?
+    - Ponme algo [alegre](emocion) para disfrutar el día
+    - Quiero escuchar algo [feliz](emocion) y [animado](emocion)
+    - Estoy [feliz](emocion), ¿qué puedo escuchar?
+    - Canciones [alegres](emocion) para una fiesta
+    - Me siento [feliz](emocion), ¿qué música me sugieres?
+    - Dame una canción [alegre](emocion) para motivarme
+    - Quiero una canción [alegre](emocion)
+    - Dime música [alegre](emocion)
+    - Estoy [feliz](emocion), recomiéndame algo
+    - Me siento [alegre](emocion), ponme música
+    - Recomiéndame música [feliz](emocion)
+    - Me encuentro [feliz](emocion), dime qué escuchar
+    - Me siento [feliz](emocion), recomienda algo
+    - Me siento muy [alegre](emocion), recomiéndame algo
+    - Estoy muy [contenta](emocion), dime música
+    - ¿Tienes alguna canción [feliz](emocion)?
+    - Sugiéreme un temazo [alegre](emocion)
+    - Estoy [eufórico](emocion), ¿qué me pongo?
+    - Estoy muy [contenta](emocion), dime canciones
+    - Algo [animado](emocion), porfa
+    - Quiero sentirme [contenta](emocion), dime música
+    - Una canción que me [motive](emocion)
+    - Quiero una canción que me ponga [feliz](emocion)
+    - Quiero escuchar algo [alegre](emocion)
+    - Me siento [motivada](emocion), ponme algo
+    - Música para cuando estoy [feliz](emocion)
+    - Recomiéndame algo si estoy [feliz](emocion)
+    - Estoy [feliz](emocion), quiero algo que lo acompañe
+    - Necesito una canción [alegre](emocion) para animarme
+    - Ponme algo [feliz](emocion), por favor
+    - ¿Qué canción [alegre](emocion) me recomiendas?
+    - Estoy de muy [buen humor](emocion), ¿qué puedo escuchar?
+    - Canciones para sentirme [feliz](emocion)
+    - Quiero escuchar algo que me haga sentir [alegre](emocion)
+    - ¿Qué música [feliz](emocion) tienes para mí?
+    - Dame una canción [alegre](emocion) para empezar el día
+    - Estoy [feliz](emocion), ¿qué me sugieres?
+    - Canciones para cuando estoy [contento](emocion)
+    - Me siento [feliz](emocion), ¿qué puedo escuchar?
+    - Recomiéndame algo [alegre](emocion) para bailar
+    - Quiero música [feliz](emocion) para celebrar
+    - Estoy [feliz](emocion), ponme algo bueno
+    - Canciones [alegres](emocion) para levantar el ánimo
+    - Necesito música [feliz](emocion) para trabajar
+    - Estoy [feliz](emocion), ¿qué canción me recomiendas?
+    - Ponme algo [alegre](emocion) para disfrutar el día
+    - Quiero escuchar algo [feliz](emocion) y [animado](emocion)
+    - Estoy [feliz](emocion), ¿qué puedo escuchar?
+    - Canciones [alegres](emocion) para una fiesta
+    - Me siento [feliz](emocion), ¿qué música me sugieres?
+    - Dame una canción [alegre](emocion) para motivarme
+    - Quiero canciones [felices](emocion)
+    - Dime algunas canciones [alegres](emocion)
+    - ¿Tienes canciones [animadas](emocion)?
+    - Recomiéndame canciones [motivadoras](emocion)
+    - Canciones [positivas](emocion) para empezar el día
+    - Ponme unas canciones bien [alegres](emocion)
+    - ¿Qué canciones [felices](emocion) tienes?
+    - Dame canciones [animadas](emocion) para trabajar
+    - Canciones [felices](emocion) y [alegres](emocion)
+    - Canciones [felices](emocion) para levantar el ánimo
+    - Dime unas canciones [alegres](emocion)
+    - Quiero canciones [felices](emocion)
+    - Canciones muy [motivadoras](emocion) para celebrar
+
+
+- intent: emocion_triste
+  examples: |
+    - quiero canciones [tristes](emocion)
+    - necesito canciones [tristes](emocion)
+    - busco canciones [tristes](emocion)
+    - dime canciones [tristes](emocion)
+    - recomienda canciones [tristes](emocion)
+    - recomiendame canciones [tristes](emocion)
+    - recomiéndame canciones [tristes](emocion)
+    - di canciones [tristes](emocion)
+    - canciones [tristes](emocion)
+    - musica [triste](emocion)
+    - quiero música [triste](emocion)
+    - necesito música [triste](emocion)
+    - busco música [triste](emocion)
+    - dime música [triste](emocion)
+    - recomienda música [triste](emocion)
+    - recomiendame música [triste](emocion)
+    - recomiéndame música [triste](emocion)
+    - di música [triste](emocion)
+    - musica [triste](emocion)
+    - quiero musica [triste](emocion)
+    - necesito musica [triste](emocion)
+    - busco musica [triste](emocion)
+    - dime musica [triste](emocion)
+    - recomienda musica [triste](emocion)
+    - recomiendame musica [triste](emocion)
+    - recomiéndame musica [triste](emocion)
+    - di musica [triste](emocion)
+    - musica [triste](emocion)
+    - Quiero una canción [triste](emocion)
+    - Dime música [triste](emocion)
+    - Quiero una canción [triste](emocion)
+    - Dime música [triste](emocion)
+    - Estoy [triste](emocion), ¿qué escucho?
+    - Dime música para un día [triste](emocion)
+    - Recomiendame música [triste](emocion)
+    - Me encuentro [triste](emocion), ¿qué podría oir?
+    - Me siento [triste](emocion), qué puedo escuchar?
+    - ¿Tienes alguna canción [triste](emocion)?
+    - Estoy [triste](emocion), ¿qué puedo escuchar?
+    - ¿Qué música puedo oír si estoy [triste](emocion)?
+    - Dame música para cuando estoy [triste](emocion)
+    - Estoy de [depre](emocion), recomiéndame algo [triste](emocion)
+    - Hoy estoy [deprimido](emocion), recomiéndame música
+    - Estoy [de bajón](emocion), dime canciones
+    - Quiero una canción para cuando me siento [apagado](emocion)
+    - Estoy muy [triste](emocion), ¿qué me recomiendas?
+    - Canciones para cuando me siento [melancólico](emocion)
+    - ¿Qué canción puedo escuchar si estoy [deprimida](emocion)?
+    - Dime algo para cuando estoy [desanimado](emocion)
+    - Recomiéndame música para un día [gris](emocion)
+    - Estoy [triste](emocion), ¿qué puedo oír?
+    - Me siento [melancólica](emocion), ponme algo
+    - Quiero música para cuando estoy [nostálgica](emocion)
+    - Estoy muy [apagada](emocion), necesito una canción
+    - ¿Tienes música para cuando estás [de bajón](emocion)?
+    - Siento que estoy [depre](emocion), recomiéndame algo
+    - Música para cuando estás [triste](emocion)
+    - Dime una canción para cuando me siento [triste](emocion)
+    - Estoy muy [decaído](emocion), ¿qué puedo escuchar?
+    - Ponme algo para este día tan [triste](emocion)
+    - Necesito música para un momento [nostálgico](emocion)
+    - ¿Qué escucho si me siento [sola](emocion)?
+    - Dame canciones para cuando estoy [hundido](emocion)
+    - Me siento [apagada](emocion), ¿qué puedo poner?
+    - ¿Qué canción me acompaña si estoy [triste](emocion)?
+    - Estoy [deprimido](emocion), ¿qué canción me levanta un poco?
+    - Recomiéndame algo para este ánimo [bajo](emocion)
+    - Estoy [desanimada](emocion), ¿qué música escucho?
+    - Hoy estoy muy [triste](emocion), ¿qué me sugieres?
+    - Música para cuando te sientes [solo](emocion) y [melancólico](emocion)
+    - Estoy [mal](emocion), recomiéndame música
+    - Dime algo si estoy [mal](emocion)
+    - Quiero una canción para cuando estoy [triste](emocion)
+    - Estoy [triste](emocion), ¿qué puedo escuchar?
+    - Recomiéndame algo para calmar mi [tristeza](emocion)
+    - Hoy estoy [triste](emocion) y [solo](emocion), necesito música
+    - Me siento [triste](emocion) y [apagado](emocion), ¿qué me recomiendas?
+    - Música para un día de [bajón](emocion)
+    - Estoy [de bajón](emocion), ¿qué canción me puede ayudar?
+    - Ponme algo si estoy [de bajón](emocion)
+    - Me siento [triste](emocion) y [deprimida](emocion) al mismo tiempo
+    - Canciones para cuando estoy [de bajón](emocion) y [triste](emocion)
+    - Hoy estoy de [bajon](emocion), dime algo para escuchar
+    - Estoy [de bajon](emocion), ¿qué me recomiendas?
+    - Necesito música para cuando estoy [triste](emocion)
+    - ¿Qué escucho si estoy [triste](emocion) y [sola](emocion)?
+    - Estoy de [bajon](emocion), ponme algo que me ayude
+    - Me siento muy [triste](emocion) y también [de bajon](emocion)
+    - Estoy [triste](emocion), pero también [sola](emocion), ¿qué me sugieres?
+    - Hoy estoy muy [desanimado](emocion) y de [bajón](emocion)
+    - Recomiéndame una canción para calmar este [bajón](emocion)
+    - Quiero canciones [tristes](emocion)
+    - Dime algunas canciones [melancólicas](emocion)
+    - Recomiéndame canciones [tristes](emocion)
+    - ¿Tienes canciones [tristes](emocion)?
+    - Canciones [tristes](emocion) para un día [gris](emocion)
+    - Busco canciones [tristes](emocion)
+    - ¿Qué canciones [tristes](emocion) me recomiendas?
+    - Canciones [tristes](emocion) y [melancolicas](emocion)
+    - Quiero unas canciones [tristes](emocion)
+    - Dime canciones muy [tristes](emocion)
+    - ¿Qué canciones [tristes](emocion) tienes?
+
+- intent: actividad_estudiar
+  examples: |
+    - voy a [estudiar](actividad), que me recomiendas?
+    - voy a [estudiar](actividad), qué me recomiendas?
+    - voy a [estudiar](actividad), que me recomiendas
+    - voy a [estudiar](actividad), qué me recomiendas
+    - voy a [estudiar](actividad) que me recomiendas?
+    - voy a [estudiar](actividad) qué me recomiendas?
+    - voy a [estudiar](actividad) que me recomiendas
+    - voy a [estudiar](actividad) qué me recomiendas    
+    - recomendaciones para [estudiar](actividad)
+    - recomendaciones para [estudiar](actividad)?
+    - que me recomiendas para [estudiar](actividad)
+    - qué me recomiendas para [estudiar](actividad)
+    - tengo que [estudiar](actividad), que me recomiendas?
+    - tengo que [estudiar](actividad), qué me recomiendas?
+    - tengo que [estudiar](actividad), que me recomiendas
+    - tengo que [estudiar](actividad), qué me recomiendas
+    - tengo que [estudiar](actividad) que me recomiendas?
+    - tengo que [estudiar](actividad) qué me recomiendas?
+    - tengo que [estudiar](actividad) que me recomiendas
+    - tengo que [estudiar](actividad) qué me recomiendas
+    - canciones para [estudiar](actividad)
+    - algo para [estudiar](actividad)
+    - música para [estudiar](actividad)
+    - musica para [estudiar](actividad)
+    - canciones de [estudiar](actividad)
+    - canción de [estudiar](actividad)
+    - canción para [estudiar](actividad)
+    - cancion para [estudiar](actividad)
+    - cancion de [estudiar](actividad)
+    - necesito música para [estudiar](actividad)
+    - algo que me ayude a [concentrarme](actividad)
+    - algo que me ayude a [estudiar](actividad)
+    - canciones para cuando estoy [estudiando](actividad)
+    - estoy haciendo [tareas](actividad), qué pongo?
+    - estoy haciendo [tareas](actividad), qué me recomiendas?
+    - alguna música para [estudiar](actividad)
+    - música tranquila para en el [estudio](actividad)
+    - qué canciones recomiendas para [estudiar](actividad)?
+    - qué canciones recomiendas para [estudiar](actividad)    
+    - que canciones recomiendas para [estudiar](actividad)?
+    - estoy con los [deberes](actividad), sugerencias?
+    - algo suave para [estudiar](actividad) pls
+    - necesito algo chill para hacer [trabajos](actividad)
+    - canciones relajantes para [concentración](actividad)
+    - alguna playlist para [estudiar](actividad)?
+    - recomendame música para hacer [deberes](actividad)
+    - musica para cuando tengo que [estudiar](actividad) mucho
+    - poneme algo para [estudiar](actividad)
+    - necesito ayuda para [concentrarme](actividad)
+    - estoy haciendo [trabajos de clase](actividad), q escucho?
+    - algo sin letra para [estudiar](actividad)?
+    - que escucho mientras [estudio](actividad)?
+    - temas buenos para [concentrarse](actividad)   
+    - ¿Qué puedo escuchar para [estudiar](actividad)?
+    - Dime algo para [estudiar](actividad)
+    - Dime música para [concentrarme](actividad)
+    - Canción relajante para [estudiar](actividad)
+    - Dame algo para [estudiar](actividad)
+    - Quiero música para hacer [trabajos](actividad)
+    - Sugiéreme algo suave para [estudiar](actividad)
+    - Canciones buenas para [concentrarse](actividad)
+    - Algo tranquilo para [concentrarme](actividad)
+    - ¿Qué puedo escuchar para hacer [trabajos de la uni](actividad)?
+    - Necesito [concentrarme](actividad), ¿qué canción escucho?
+    - Sugiere música para [estudiar](actividad)
+    - Necesito [concentración](actividad), sugiere canciones
+    - ¿Qué me vendría bien para [estudiar](actividad)?
+    - Recomiéndame música para [estudiar](actividad)
+    - Necesito canciones para [concentrarme](actividad)
+    - Ponme algo suave para [estudiar](actividad)
+    - Quiero algo tranquilo para [concentración](actividad)
+    - Dame una lista para [concentrarme](actividad)
+    - ¿Tienes música para el [estudio](actividad)?
+    - Estoy en modo [estudio](actividad), ¿qué escucho?
+    - Música ideal para [concentrarme](actividad)
+    - ¿Qué canciones ayudan a la [concentración](actividad)?
+    - Algo instrumental para [estudiar](actividad)
+    - ¿Qué puedo poner mientras hago [tareas](actividad)?
+    - Música que me ayude a [estudiar](actividad)
+    - ¿Qué escucho para entrar en modo [concentración](actividad)?
+    - Algo que me ayude a mantener la [concentración](actividad)
+    - Dame una canción para estar más [concentrado](actividad)
+    - Música para fondo mientras hago [deberes](actividad)
+    - Canciones perfectas para [estudiar](actividad)
+    - Música lo-fi para [concentrarme](actividad)
+    - ¿Qué canción me recomiendas para [concentrarme](actividad)?
+    - Sugiéreme música para una buena sesión de [estudio](actividad)
+    - Algo relajante para mejorar la [concentración](actividad)
+    - Estoy intentando [concentrarme](actividad), recomiéndame algo
+    - Canciones sin letra para [estudiar](actividad)
+    - Quiero estudiar, ¿qué me recomiendas para la [concentración](actividad)?
+    - Canciones que me ayuden a [concentrarme](actividad)
+    - Dame algo tranquilo para poder [estudiar](actividad) mejor
+    - ¿Qué escucho mientras estoy en plena sesión de [estudio](actividad)?
+    - ¿Qué canción va bien para cuando necesito [concentración](actividad)?
+    - Recomiéndame algo instrumental para [hacer deberes](actividad)
+    - Música para acompañar mi [estudio](actividad)
+    - Estoy tratando de [concentrarme](actividad), ¿qué me recomiendas?
+    - ¿Qué música me puede servir para [concentrarme](actividad)?
+    - Pon algo suave para facilitar la [concentración](actividad)
+    - Algo que me mantenga enfocado mientras [estudio](actividad)
+    - Necesito ayuda para [concentrarme](actividad), ¿qué música pongo?
+    - ¿Tienes una playlist para [estudiar](actividad)?
+    - Música ideal para trabajar en [tareas](actividad) largas
+    - ¿Qué canciones me pueden ayudar a [concentrarme](actividad)?
+    - Algo ambiental para mejorar la [concentración](actividad)
+    - Sugiéreme canciones sin letra para [estudiar](actividad)
+    - ¿Qué tipo de música escuchas para [estudiar](actividad)?
+    - Me cuesta [concentrarme](actividad), ¿qué música me sugieres?
+    - Música tranquila que me ayude a [hacer trabajos](actividad)
+    - ¿Qué música pones cuando estás en modo [estudio](actividad)?
+    - Quiero concentrarme, ponme algo ideal para el [estudio](actividad)
+    - Una canción para enfocarme en mis [deberes](actividad)
+    - ¿Qué suena bien mientras estoy haciendo [tareas](actividad)?
+    - Algo que me mantenga centrado durante el [estudio](actividad)
+
+- intent: actividad_entrenar
+  examples: |
+    - dime musica para [entrenar](actividad)
+    - dime musica para [entrenar](actividad)
+    - dime canciones para [entrenar](actividad)
+    - dime canciones para [correr](actividad)
+    - recomendaciones para [entrenar](actividad)
+    - recomendaciones para [entrenar](actividad)?
+    - que me recomiendas para [entrenar](actividad)
+    - qué me recomiendas para [entrenar](actividad)
+    - tengo que [entrenar](actividad), que me recomiendas?
+    - tengo que [entrenar](actividad), qué me recomiendas?
+    - tengo que [entrenar](actividad), que me recomiendas
+    - tengo que [entrenar](actividad), qué me recomiendas
+    - tengo que [entrenar](actividad) que me recomiendas?
+    - tengo que [entrenar](actividad) qué me recomiendas?
+    - tengo que [entrenar](actividad) que me recomiendas
+    - tengo que [entrenar](actividad) qué me recomiendas
+    - canciones para [entrenar](actividad)
+    - algo para [entrenar](actividad)
+    - música para [entrenar](actividad)
+    - musica para [entrenar](actividad)
+    - canciones de [entrenar](actividad)
+    - canción de [entrenar](actividad)
+    - canción para [entrenar](actividad)
+    - cancion para [entrenar](actividad)
+    - cancion de [entrenar](actividad)
+    - recomendaciones para [correr](actividad)
+    - recomendaciones para [correr](actividad)?
+    - que me recomiendas para [correr](actividad)
+    - qué me recomiendas para [correr](actividad)
+    - tengo que [correr](actividad), que me recomiendas?
+    - tengo que [correr](actividad), qué me recomiendas?
+    - tengo que [correr](actividad), que me recomiendas
+    - tengo que [correr](actividad), qué me recomiendas
+    - tengo que [correr](actividad) que me recomiendas?
+    - tengo que [correr](actividad) qué me recomiendas?
+    - tengo que [correr](actividad) que me recomiendas
+    - tengo que [correr](actividad) qué me recomiendas
+    - voy a [correr](actividad), que me recomiendas?
+    - voy a [correr](actividad), qué me recomiendas?
+    - voy a [correr](actividad), que me recomiendas
+    - voy a [correr](actividad), qué me recomiendas
+    - voy a [correr](actividad) que me recomiendas?
+    - voy a [correr](actividad) qué me recomiendas?
+    - voy a [correr](actividad) que me recomiendas
+    - voy a [correr](actividad) qué me recomiendas
+    - voy a [entrenar](actividad), que me recomiendas?
+    - voy a [entrenar](actividad), qué me recomiendas?
+    - voy a [entrenar](actividad), que me recomiendas
+    - voy a [entrenar](actividad), qué me recomiendas
+    - voy a [entrenar](actividad) que me recomiendas?
+    - voy a [entrenar](actividad) qué me recomiendas?
+    - voy a [entrenar](actividad) que me recomiendas
+    - voy a [entrenar](actividad) qué me recomiendas
+    - voy al [gimnasio](actividad), que me recomiendas?
+    - voy al [gimnasio](actividad), qué me recomiendas?
+    - voy al [gimnasio](actividad), que me recomiendas
+    - voy al [gimnasio](actividad), qué me recomiendas
+    - voy al [gimnasio](actividad) que me recomiendas?
+    - voy al [gimnasio](actividad) qué me recomiendas?
+    - voy al [gimnasio](actividad) que me recomiendas
+    - voy al [gimnasio](actividad) qué me recomiendas
+    - voy al [gym](actividad), que me recomiendas?
+    - voy al [gym](actividad), qué me recomiendas?
+    - voy al [gym](actividad), que me recomiendas
+    - voy al [gym](actividad), qué me recomiendas
+    - voy al [gym](actividad) que me recomiendas?
+    - voy al [gym](actividad) qué me recomiendas?
+    - voy al [gym](actividad) que me recomiendas
+    - voy al [gym](actividad) qué me recomiendas    
+    - canciones para [correr](actividad)
+    - algo para [correr](actividad)
+    - música para [correr](actividad)
+    - musica para [correr](actividad)
+    - canciones de [correr](actividad)
+    - canción de [correr](actividad)
+    - canción para [correr](actividad)
+    - cancion para [correr](actividad)
+    - cancion de [correr](actividad)
+    - necesito música para [correr](actividad)
+    - algo que me ayude a [correr](actividad)
+    - canciones para cuando estoy [corriendo](actividad)
+    - estoy haciendo [running](actividad), qué pongo?
+    - estoy haciendo [running](actividad), qué me recomiendas?
+    - alguna música para [correr](actividad)
+    - necesito música para [entrenar](actividad)
+    - algo que me ayude a [entrenar](actividad)
+    - canciones para cuando estoy [entrenando](actividad)
+    - estoy haciendo [ejercicio](actividad), qué pongo?
+    - estoy haciendo [ejercicio](actividad), qué me recomiendas?
+    - alguna música para [entrenar](actividad)
+    - Quiero música para [entrenar](actividad)
+    - ¿Qué música me pongo para ir a [entrenar](actividad)?
+    - Dime una cancion para [correr](actividad)
+    - ¿Qué escucho en el [gimnasio](actividad)?
+    - ¿Qué puedo oir en el [gym](actividad)?
+    - ¿Qué puedo escuchar para ir al [gimnasio](actividad)?
+    - Quiero algo para [entrenar](actividad)
+    - voy a [entrenar](actividad), ¿qué música me recomiendas?
+    - necesito música para [entrenar](actividad)
+    - ¿qué puedo escuchar mientras [entreno](actividad)?
+    - quiero motivación para [el gimnasio](actividad)
+    - alguna playlist para [hacer ejercicio](actividad)
+    - Algo para [correr](actividad)
+    - Dime algo para [hacer deporte](actividad)
+    - Voy a [hacer ejercicio](actividad), dime canciones
+    - Voy a salir a [correr](actividad), que puedo escuchar?
+    - Música para hacer [ejercicio](actividad)
+    - ¿Tienes algo para [gym](actividad)?
+    - Ponme música para [entrenar](actividad)
+    - Una canción para el [gimnasio](actividad)
+    - ¿Qué me recomiendas para el [gym](actividad)?
+    - Necesito algo que me motive para [entrenar](actividad)
+    - ¿Qué música va bien para [hacer ejercicio](actividad)?
+    - Estoy a punto de [entrenar](actividad), ¿qué escucho?
+    - Ponme algo enérgico para el [gym](actividad)
+    - Dime canciones que sirvan para [entrenar](actividad)
+    - Quiero algo potente para [hacer ejercicio](actividad)
+    - Recomiéndame algo para el [gimnasio](actividad)
+    - Algo con ritmo para [correr](actividad)
+    - Música cañera para [entrenar](actividad)
+    - ¿Qué puedo escuchar mientras estoy en el [gimnasio](actividad)?
+    - Playlist para [hacer deporte](actividad)
+    - Algo que me suba el ánimo mientras [entreno](actividad)
+    - Necesito una canción para motivarme en el [gym](actividad)
+    - ¿Qué canción me recomiendas para [correr](actividad)?
+    - Voy al [gimnasio](actividad), ponme algo bueno
+    - Dime algo movido para [hacer ejercicio](actividad)
+    - ¿Qué puedo escuchar para no aburrirme en el [gym](actividad)?
+    - Música motivadora para [entrenar](actividad)
+    - ¿Qué escuchas tú para [correr](actividad)?
+    - Estoy en el [gimnasio](actividad), ¿qué me pongo?
+    - Ponme música energética para [hacer deporte](actividad)
+    - Dime algo para escuchar mientras hago [ejercicio](actividad)
+    - Quiero una canción para estar a tope en el [gimnasio](actividad)
+    - Algo para entrenar en casa, tipo [hacer ejercicio](actividad)
+    - ¿Qué canción me activa para [entrenar](actividad)?
+    - Dame música para una buena sesión de [gym](actividad)
+    - ¿Tienes una lista para [correr](actividad)?
+    - Música fuerte para cuando voy al [gimnasio](actividad)
+    - Quiero escuchar algo mientras [hago ejercicio](actividad)
+    - Una buena canción para motivarme en el [gym](actividad)
+    - Dime algo que escuche cuando salga a [correr](actividad)
+    - ¿Qué se escucha en el [gym](actividad)?
+    - Voy a hacer una rutina de [ejercicio](actividad), recomiéndame algo
+    - Música ideal para entrenar en el [gimnasio](actividad)
+    - ¿Tienes algo para mi sesión de [entrenamiento](actividad)?
+    - Dime música para levantar pesas en el [gym](actividad)
+    - Algo con fuerza para [entrenar](actividad)
+    - ¿Qué suena bien cuando estás en el [gimnasio](actividad)?
+    - ¿Qué pongo para hacer [cardio](actividad)?
+    - Una canción para darlo todo en el [gym](actividad)
+    - Estoy por empezar a [correr](actividad), ¿qué música pongo?
+
+
+
+- intent: actividad_bailar
+  examples: |
+    - dime musica para [bailar](actividad)
+    - dime musica para [bailar](actividad)
+    - dime canciones para [bailar](actividad)
+    - recomendaciones para [bailar](actividad)
+    - recomendaciones para [bailar](actividad)?
+    - que me recomiendas para [bailar](actividad)
+    - qué me recomiendas para [bailar](actividad)
+    - quiero [bailar](actividad), que me recomiendas?
+    - quiero [bailar](actividad), qué me recomiendas?
+    - quiero [bailar](actividad), que me recomiendas
+    - quiero [bailar](actividad), qué me recomiendas
+    - quiero [bailar](actividad) que me recomiendas?
+    - quiero [bailar](actividad) qué me recomiendas?
+    - quiero [bailar](actividad) que me recomiendas
+    - quiero [bailar](actividad) qué me recomiendas
+    - tengo ganas de [bailar](actividad), que escucho?
+    - tengo ganas de [bailar](actividad), qué escucho?
+    - tengo ganas de [bailar](actividad), que me pongo
+    - tengo ganas de [bailar](actividad), qué me pongo
+    - tengo ganas de [bailar](actividad) que oigo?
+    - tengo ganas de [bailar](actividad) qué oigo?
+    - tengo ganas de [bailar](actividad) que puedo escuchar
+    - tengo ganas de [bailar](actividad) qué puedo escuchar
+    - canciones para [bailar](actividad)
+    - algo para [bailar](actividad)
+    - música para [bailar](actividad)
+    - musica para [bailar](actividad)
+    - canciones de [bailar](actividad)
+    - canción de [bailar](actividad)
+    - canción para [bailar](actividad)
+    - cancion para [bailar](actividad)
+    - cancion de [bailar](actividad)
+    - necesito música para [bailar](actividad)
+    - algo que me ayude a [bailar](actividad)
+    - voy a [bailar](actividad), que me recomiendas?
+    - voy a [bailar](actividad), qué me recomiendas?
+    - voy a [bailar](actividad), que me recomiendas
+    - voy a [bailar](actividad), qué me recomiendas
+    - voy a [bailar](actividad) que me recomiendas?
+    - voy a [bailar](actividad) qué me recomiendas?
+    - voy a [bailar](actividad) que me recomiendas
+    - voy a [bailar](actividad) qué me recomiendas
+    - Quiero música para [bailar](actividad)
+    - Dime una canción para [bailar](actividad)
+    - Dime una música para [bailar](actividad)
+    - ¿Qué escucho para [bailar](actividad)?
+    - Ponme algo para [bailar](actividad)
+    - Necesito algo que me haga [bailar](actividad)
+    - Música perfecta para [bailar](actividad)
+    - Estoy con ganas de [bailar](actividad), ¿qué pongo?
+    - Canciones que den ganas de [bailar](actividad)
+    - Recomiéndame música para [bailar](actividad)
+    - Quiero mover el cuerpo, algo para [bailar](actividad)
+    - Una canción para ponerme a [bailar](actividad)
+    - Música con ritmo para [bailar](actividad)
+    - Algo pegajoso para [bailar](actividad)
+    - ¿Qué música me pone a [bailar](actividad)?
+    - Dame algo que me haga [bailar](actividad) sin parar
+    - Música para [bailar](actividad)
+    - ¿Tienes algo movido para [bailar](actividad)?
+    - Quiero algo divertido para [bailar](actividad)
+    - Estoy en modo fiesta, necesito [bailar](actividad)
+    - Sugiéreme música que invite a [bailar](actividad)
+    - Una playlist para [bailar](actividad)
+    - Algo [bailable](actividad) para hoy, quiero [bailar](actividad)
+    - Pon algo que me haga [bailar](actividad) ahora
+    - Quiero que suene algo para [bailar](actividad)
+    - ¿Qué pongo si quiero [bailar](actividad)?
+    - Dime qué escuchar para una noche de [baile](actividad)
+    - ¿Tienes música fiestera para [bailar](actividad)?
+    - Dime un temazo para [bailar](actividad)
+    - Canciones que sirvan para [bailar](actividad) en casa
+    - Hoy quiero [bailar](actividad), ¿qué me recomiendas?
+    - ¿Qué suena bien para ponerse a [bailar](actividad)?
+    - Algo que me dé ganas de [bailar](actividad)
+    - Una canción que me ponga a [bailar](actividad) desde el primer segundo
+    - Estoy solo pero quiero [bailar](actividad), ¿qué me pongo?
+    - ¿Qué música suena bien para una sesión de [baile](actividad)?
+    - Dime algo animado para ponerme a [bailar](actividad)
+    - Quiero música que me haga [bailar](actividad) en la sala
+    - Dame algo que no pueda evitar [bailar](actividad)
+
+
+- intent: despedirse
+  examples: |
+    - Adiós
+    - adios
+    - adioss
+    - Adios
+    - adios!!!
+    - adios!
+    - Adiós!
+    - ¡Adios!
+    - Adioooooosssssss
+    - Adiosssssss
+    - adiosss
+    - adioooooos
+    - aaaadios
+    - ¡adios!
+    - ¡adiós!
+    - Chao
+    - Hasta luego
+    - Nos vemos
+    - Me voy
+    - chao chao
+    - hasta luegooooo
+    - hasta luego!
+    - Hasta luego!
+    - ¡Hasta luego!
+    - ¡hasta luego!
+    - Hasta pronto
+    - Me voy por ahora
+    - Hasta otra
+    - Hasta otro día
+    - Ciao
+    - Fue un gusto
+    - Luego seguimos
+    - Me despido
+    - Vuelvo luego
+    - Otro día seguimos
+    - Me voy a escuchar tus recomendaciones
+    - Ha sido genial, ¡nos vemos!
+    - adios
+    - Adioooooos
+    - Hasta más ver
+    - Me desconecto
+    - Un placer
+    - Vale, adios
+    - Vale, chao
+
+
+
+- intent: negar_agradecer
+  examples: |
+    - no
+    - No
+    - nooooo
+    - no!
+    - No!
+    - ¡no!
+    - ¡No!
+    - no, gracias
+    - no, muchas gracias
+    - no, mil gracias
+    - no gracias
+    - no, graciassssss
+    - no gracias, está bien
+    - no, muchas graciasssss
+    - no, gracias por todo
+    - no, ya estoy bien
+    - no, eso era todo
+    - eso era todo
+    - no, con eso es suficiente
+    - no, gracias, muy amable
+    - no, todo perfecto, gracias
+    - no, por ahora no
+    - no, ya tengo lo que necesito, gracias
+    - no, gracias igualmente
+    - no, gracias por la ayuda
+    - no, no necesito más
+    - no, de momento no
+    - no, eso es todo por hoy
+    - no, gracias, ya terminé
+    - no, gracias por las canciones
+    - no, ha sido suficiente
+    - no, me voy ya, gracias
+    - no, ha estado genial, gracias
+    - no, gracias por tu tiempo
+    - no, todo bien, gracias
+    - no, gracias por las recomendaciones
+    - no, ya está bien así
+    - no, muchas gracias por todo
+    - no, me despido, gracias
+    - no, ya tengo suficiente música, gracias
+    - te lo agradezco
+    - gracias por tu ayuda
+    - muchísimas gracias
+    - muchisimas gracias
+    - gracias por la recomendación
+    - se agradece
+    - te lo agradezco
+    - muy amable
+    - gracias, de verdad
+    - gracias por responder
+    - gracias por la música
+    - estoy agradecido
+    - estoy agradecida
+    - estoy muy agradecido
+    - estoy muy agradecida
+    - gracias bot
+    - genial, gracias
+    - gracias por todo
+    - graciassssssss
+    - qué bien, gracias
+    - que bien, gracias
+    - graciaaaaaaaas
+    - te doy las gracias
+    - gracias, era justo lo que buscaba
+    - qué majo, gracias
+    - gracias por tu tiempo
+    - eso era lo que necesitaba, gracias
+    - ¡gracias!
+    - gracias!!!!!
+    - Gracias!!
+    - Gracias!
+    - ¡Gracias!
+    - ¡muchas gracias!
+    - ¡Muchas gracias!
+    - ¡mil gracias!
+    - No, hasta luego
+    - no, adios
+    - no, adiós
+    - No, gracias, adios
+    - Nada más, hasta luego!
+    - eso es todo, adios
+    - eso es todo, gracias
+    - eso es todo 
+    - nada más
+    - no, gracias
+    - no, hasta pronto
+    - no
+    - No
+
+
+- synonym: feliz
+  examples: |
+    - felices
+    - contenta
+    - contento
+    - alegre
+    - contentas
+    - contentos
+    - alegres
+    - animado
+    - animada
+    - animadas
+    - animados
+    - eufórico
+    - eufórica
+    - motivado
+    - motivada
+    - buen humor
+    - de buen humor
+    - motivador
+    - motivadoras
+    - motivar
+    - motivarme
+    - motivarse
+    - motivados
+    - motivadas
+
+- synonym: triste
+  examples: |
+    - tristes
+    - trists
+    - trist
+    - trste
+    - deprimido
+    - deprimida
+    - depre
+    - apagado
+    - apagada
+    - apagados
+    - apagadas
+    - de bajon
+    - de bajón
+    - bajon
+    - bajón
+    - desanimado
+    - desanimada
+    - solo
+    - sola
+    - melancólico
+    - melancólica
+    - bajo
+    - baja
+    - melancólicos
+    - melancólicas
+
+- synonym: estudiar
+  examples: |
+    - concentrarme
+    - concentrarse
+    - concentrar
+    - concentración
+    - tareas
+    - hacer tareas
+    - hacer deberes
+    - deberes
+    - trabajos
+    - hacer trabajos
+    - estudio
+    - estudiando
+    - estudi
+    - estudie
+
+- synonym: entrenar
+  examples: |
+    - entreno
+    - entrenamiento
+    - ir a entrenar
+    - correr
+    - corro
+    - corriendo
+    - ir a correr
+    - salir a correr
+    - hacer deporte
+    - deporte
+    - ejercicio
+    - hacer ejercicio
+    - gym
+    - ir al gym
+    - voy al gym
+    - gimnasio
+    - ir al gimnasio
+    - hago ejercicio
+    - hago deporte
+    - estoy en el gym
+    - estoy en el gimnasio
+    - voy a entrenar
+
+- synonym: bailar
+  examples: |
+    - baile
+    - bailes
+    - bailando
+    - fiesta
+    - bailable
+    - bailo
+    - bailen
+    - mover el esquelo
+
+
+- lookup: nombre_usuario
+  examples: |
+    - Lucía
+    - Pedro
+    - Ana
+    - Carlos
+    - María
+    - Andrea
+    - Sofía
+    - Irene
+    - Álvaro
+    - Claudia
+    - Alejandro
+    - Paula
+    - Ramón
+    - Guillermo
+    - Laura
+    - Miguel
+    - Jaime
+    - David
+    - Julia
+    - Gema
+    - Nicolás
+    - Gonzalo
+    - Isabel
+    - Mateo
+    - Aitana
+    - Sergio
+    - Carmen
+    - Marta
+    - Hugo
+    - Valeria
+    - Marcos
+    - Daniela
+    - Tomás
+    - Noelia
+    - Jorge
+    - Inés
+    - Pablo
+    - Belén
+    - Esteban
+    - Alejandra
+    - Patricia
+    - Héctor
+    - Marisol
+    - Antonio
+    - Mar
+    - Luis
+    - Adriana
+    - Aitor
+    - Nuria
+    - Fernando
+    - Carolina
+    - Manuela
+    - Rubén
+    - Teresa
+    - Joaquín
+    - Pilar
+    - Adela
+    - Kevin
+    - Ángeles
+    - Jesús
+    - Alba
+    - Leo
+    - Victoria
+    - Bruno
+    - Clara
+    - Marcos
+    - Alicia
+    - Iván
+    - Silvia
+    - Samuel
+    - Lorena
+    - Andrés
+    - Nerea
+    - Óscar
+    - Ricardo
+    - Francisco
+    - Vega
+    - Diego
+    - Celia
+    - Julián
+    - Ángel
+    - Ángela
+    - Raúl
+    - Enrique
+    - Rebeca
+    - Damián
+    - Sonia
+    - Israel
+    - Elsa
+    - Joaquín
+    - Yaiza
+    - Rodrigo
+    - Araceli
+    - Juan Pablo
+    - María José
+    - José Luis
+    - Ana Belén
+    - Carlos Alberto
+    - María del Mar
+    - Juan Carlos
+    - María Teresa
+    - Luis Miguel
+    - María Jesús
+    - María Teresa

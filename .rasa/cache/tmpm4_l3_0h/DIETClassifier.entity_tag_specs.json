@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-actividad",
+      "2": "I-actividad",
+      "3": "L-actividad",
+      "4": "U-actividad",
+      "5": "B-emocion",
+      "6": "I-emocion",
+      "7": "L-emocion",
+      "8": "U-emocion",
+      "9": "B-nombre_usuario",
+      "10": "I-nombre_usuario",
+      "11": "L-nombre_usuario",
+      "12": "U-nombre_usuario",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-actividad": 1,
+      "I-actividad": 2,
+      "L-actividad": 3,
+      "U-actividad": 4,
+      "B-emocion": 5,
+      "I-emocion": 6,
+      "L-emocion": 7,
+      "U-emocion": 8,
+      "B-nombre_usuario": 9,
+      "I-nombre_usuario": 10,
+      "L-nombre_usuario": 11,
+      "U-nombre_usuario": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
